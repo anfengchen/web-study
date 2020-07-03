@@ -1,0 +1,14 @@
+/*资源管理部分的内容
+@font-face {
+    font-family: 'webFont';
+    src: url('./asset/font/webfont.woff2')format('woff2'), url("./asset/font/webfont.woff")format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hello {
+    color: red;
+    font-family: 'webFont';
+    background: url(./asset/images/yarn.jpg);
+}
+*/

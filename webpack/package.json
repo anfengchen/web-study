@@ -1,0 +1,40 @@
+{
+    "name": "webpack-demo",
+    "version": "1.0.0",
+    "description": "A frontend project using webpack to organize the packages",
+    "main": "index.js",
+    "dependencies": {
+        "@babel/polyfill": "^7.10.1",
+        "lodash": "^4.17.15",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.10.3",
+        "@babel/core": "^7.10.3",
+        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+        "@babel/preset-env": "^7.10.3",
+        "clean-webpack-plugin": "^3.0.0",
+        "co": "^4.6.0",
+        "css-loader": "^3.6.0",
+        "csv-loader": "^3.0.3",
+        "file-loader": "^6.0.0",
+        "html-webpack-plugin": "^4.3.0",
+        "style-loader": "^1.2.1",
+        "webpack-dev-server": "^3.11.0",
+        "webpack-manifest-plugin": "^2.2.0",
+        "xml-loader": "^1.2.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no text specified\" && exit 1",
+        "watch": "node_modules/.bin/webpack --watch --config webpack.config.js",
+        "build": "node_modules/.bin/webpack --config webpack.config.js",
+        "start": "node_modules/.bin/webpack-dev-server --open --config webpack.config.js",
+        "server": "node server.js"
+    },
+    "keywords": [
+        "webpack"
+    ],
+    "author": "afc",
+    "license": "MIT"
+}
