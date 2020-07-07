@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "webfont";
+    src: url("./webfont.woff")format('woff'), url("./webfont.woff2")format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hello {
+    color: red;
+    font-family: 'webfont';
+    background: url("./cat-house.jpg");
+}
