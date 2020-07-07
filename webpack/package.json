@@ -2,7 +2,7 @@
     "name": "webpack-demo",
     "version": "1.0.0",
     "description": "A frontend project using webpack to organize the packages",
-    "main": "index.js",
+    "private": "true",
     "dependencies": {
         "@babel/polyfill": "^7.10.1",
         "lodash": "^4.17.15",
